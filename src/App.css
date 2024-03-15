@@ -1,0 +1,99 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+:root {
+  --font: 'Red Hat Display', sans-serif;
+  --fosi: 14px;
+  --main-bg-clr: rgb(19,25,33);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: var(--font);
+  font-size: var(--fosi);
+}
+
+code {
+  font-family: var(--font);
+  font-size: var(--fosi);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+input{
+  border: 1px solid black;
+  border-radius: 0px;
+  font-family: var(--font);
+  font-size: var(--fosi);
+}
+
+input::placeholder{
+  font-family: var(--font);
+  font-size: var(--fosi);
+}
+
+input:focus{
+  outline: none;
+}
+
+button{
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 0px;
+  font-family: var(--font);
+  font-size: var(--fosi);
+  transition: all 0.3s ease-in-out;
+}
+
+.flexColumn{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.outline1{
+  outline: 1px solid skyblue;
+}
+
+.outline2{
+  outline: 1px solid limegreen;
+}
+
+.outline3{
+  outline: 1px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
